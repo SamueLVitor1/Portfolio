@@ -22,7 +22,7 @@ export const ContainerProjects = styled.section`
   }
 
   .projectContainer{
-    max-width: 30rem;
+    width: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -25,10 +25,7 @@ export const Container = styled.main`
       border-radius: 50%;
       border: 3px solid ${props => props.theme.primary};
       opacity: 0.9;
-
-      
     }
-
   }
 
   section:last-child{
@@ -112,6 +109,7 @@ export const Container = styled.main`
 
   @media (max-width: 720px) {
     grid-template-columns: 1fr;
+    
 
     section:first-child{
       img{
@@ -119,6 +117,10 @@ export const Container = styled.main`
         max-width: 20rem
       }
       
+    }
+
+    section:last-child{
+      margin-top: -10rem;
     }
   }
 `

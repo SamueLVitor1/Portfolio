@@ -21,8 +21,8 @@ export function MenuHamburguer({ themePresent, changeTheme }) {
             </button>
 
             <div>
-              <p>about</p>
-              <p>about</p>
+              <p><a href="#sobreMim">Sobre</a></p>
+              <p><a href="#containerProjects">Projetos </a></p>
               <p>about</p>
             </div>
 

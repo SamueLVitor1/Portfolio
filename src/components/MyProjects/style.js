@@ -22,7 +22,7 @@ export const ContainerProjects = styled.section`
   }
 
   .projectContainer{
-    width: 30rem;
+    width: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +40,7 @@ export const ContainerProjects = styled.section`
     img{
       border-radius: 8px;
       height: 15rem;
-      width: 20rem;
+      max-width: 20rem;
       border: 1px solid ${props => props.theme.primary};
       margin-bottom: 1rem;
     }

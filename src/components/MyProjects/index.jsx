@@ -17,7 +17,7 @@ export function MyProjects() {
 
   useEffect(() => {
     const verificarTela = () => {
-      if (window.innerWidth <= 420) {
+      if (window.innerWidth <= 512) {
         setContPerView(1);
       } else {
         setContPerView(2);

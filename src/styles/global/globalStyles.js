@@ -18,6 +18,7 @@ export const GlobalStyles = createGlobalStyle`
  html, body{
   font-size: 1.6rem;
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
  }
 
  body, input, textarea, button{

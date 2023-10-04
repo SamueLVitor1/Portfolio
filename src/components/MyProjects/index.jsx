@@ -36,13 +36,11 @@ export function MyProjects() {
 
       <div>
         <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={10}
+          modules={[Navigation]}
+          spaceBetween={20}
           slidesPerView={contPerView}
           navigation
 
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
           className='projectCont'
         >
 
@@ -52,17 +50,13 @@ export function MyProjects() {
             <h3>Pokedex</h3>
 
             <div>
-              <button>
-                <a href="https://github.com/SamueLVitor1/quest-POKEDEX" target='_blank'>
-                  GitHub
-                </a>
-              </button>
+              <a href="https://github.com/SamueLVitor1/quest-POKEDEX" target='_blank'>
+                GitHub
+              </a>
 
-              <button>
-                <a href="https://quest-pokedex.vercel.app/" target='_blank'>
-                  Site
-                </a>
-              </button>
+              <a href="https://quest-pokedex.vercel.app/" target='_blank'>
+                Site
+              </a>
             </div>
 
           </SwiperSlide>
@@ -73,17 +67,13 @@ export function MyProjects() {
             <h3>Todo</h3>
 
             <div>
-              <button>
-                <a href="https://github.com/SamueLVitor1/Todo" target='_blank'>
-                  GitHub
-                </a>
-              </button>
+              <a href="https://github.com/SamueLVitor1/Todo" target='_blank'>
+                GitHub
+              </a>
 
-              <button>
-                <a href="https://todo-coral-three.vercel.app/" target='_blank'>
-                  Site
-                </a>
-              </button>
+              <a href="https://todo-coral-three.vercel.app/" target='_blank'>
+                Site
+              </a>
             </div>
 
           </SwiperSlide>
@@ -94,17 +84,13 @@ export function MyProjects() {
             <h3>GitHub api</h3>
 
             <div>
-              <button>
-                <a href="https://github.com/SamueLVitor1/Quest-GitHub-API" target='_blank'>
-                  GitHub
-                </a>
-              </button>
+              <a href="https://github.com/SamueLVitor1/Quest-GitHub-API" target='_blank'>
+                GitHub
+              </a>
 
-              <button>
-                <a href="https://samuelvitor1.github.io/Quest-GitHub-API/" target='_blank'>
-                  Site
-                </a>
-              </button>
+              <a href="https://samuelvitor1.github.io/Quest-GitHub-API/" target='_blank'>
+                Site
+              </a>
             </div>
           </SwiperSlide>
 

@@ -52,12 +52,15 @@ export const ContainerProjects = styled.section`
       gap: 8px;
       grid-template-columns: repeat(2, 1fr);
       
-      button{
+      a{
         padding: 0.50rem;
         background: transparent;
         border: 0;
         border: 1px solid ${props => props.theme.primary};
         border-radius: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         transition: 0.2s;
 
         &:hover{

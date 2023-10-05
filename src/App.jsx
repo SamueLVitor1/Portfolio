@@ -8,6 +8,8 @@ import { ContainerIntroductory } from "./components/ContainerIntroductory"
 import { AboutMe } from "./components/AboutMe"
 import { MyTechnologies } from "./components/MyTechnologies"
 import { MyProjects } from "./components/MyProjects"
+import { Footer } from "./components/Footer"
+
 
 export function App() {
 
@@ -27,7 +29,8 @@ export function App() {
       <AboutMe />
       <MyTechnologies />
       <GlobalStyles />
-      <MyProjects/>
+      <MyProjects />
+      <Footer />
     </ThemeProvider>
   )
 }

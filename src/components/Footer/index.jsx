@@ -3,7 +3,7 @@ import { ContainerFooter } from "./styles";
 
 export function Footer() {
   return (
-    <ContainerFooter>
+    <ContainerFooter id="contato">
       <h2>Contatos</h2>
 
       <section>

@@ -14,7 +14,7 @@ export function Header({ themePresent, changeTheme }) {
           <ul>
             <li><a href="#sobreMim">Sobre</a></li>
             <li><a href="#containerProjects">Projetos </a></li>
-            <li>Contato</li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
 
           <ButtonDarkOrLight isThemePresent={themePresent} changeTheme={changeTheme}/>

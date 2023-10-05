@@ -23,12 +23,12 @@ export function MenuHamburguer({ themePresent, changeTheme }) {
             <div>
               <p><a href="#sobreMim">Sobre</a></p>
               <p><a href="#containerProjects">Projetos </a></p>
-              <p>about</p>
+              <p><a href="#contato">Contato</a></p>
             </div>
 
             <ButtonDarkOrLight
-                isThemePresent={themePresent}
-                changeTheme={changeTheme}
+              isThemePresent={themePresent}
+              changeTheme={changeTheme}
             />
 
           </div>

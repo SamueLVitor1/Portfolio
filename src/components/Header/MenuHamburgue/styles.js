@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContainerMenuHamburguer = styled.div`
   display: none;
-  position: relative;
+  
   
   @media (max-width: 720px) {
     color:  ${props => props.theme.primary};
@@ -19,10 +19,12 @@ export const ContainerMenuHamburguer = styled.div`
 
     .menuOpen{
       background: ${props => props.theme.secondary};
-      position: fixed;
+      position: absolute;
+      z-index: 222;
       right: 0;
-      top: -0;
-      width: 100px;
+      top: 0;
+      width: 120px;
+      border-radius: 0 0 0 1rem;
       padding: 12px;
       display: flex;
       align-items: center;

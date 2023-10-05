@@ -7,18 +7,18 @@ export function Footer() {
       <h2>Contatos</h2>
 
       <section>
-        
+
         <div>
           <p>
-            <EnvelopeSimple size={20} weight="bold" />
             <a href="mailto:samuelvitor.andrade1@gmail.com">
+              <EnvelopeSimple size={20} weight="bold" />
               samuelvitor.andrade1@gmail.com
             </a>
           </p>
 
           <p>
-            <LinkedinLogo size={20} weight="bold" />
             <a href="https://www.linkedin.com/in/samuel-v%C3%ADtor-948498264/">
+              <LinkedinLogo size={20} weight="bold" />
               LinkedIn
             </a>
           </p>

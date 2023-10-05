@@ -35,13 +35,14 @@ export const ContainerFooter = styled.footer`
       justify-content: space-around;
       flex-wrap: wrap;
       margin-bottom: 1rem;
+      gap: 1rem;
 
-      p{
+      a{
         display: flex;
         align-items: center;
         gap: 0.3rem;
-        
       }
+
     }
 
     p,span{
